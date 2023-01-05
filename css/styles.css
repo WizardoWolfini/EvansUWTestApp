@@ -18,10 +18,6 @@ body {
     color: black;
     padding: 20px;
 }
-
-.pagebreaker > hr {
-    border: 5px solid green;
-}
 /* Nav Styles */
 .container {
     display:grid;

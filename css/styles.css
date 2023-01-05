@@ -8,13 +8,13 @@ body {
     text-align: center;
     color: black;
     background-color: white;
-    font-size: 50px;
+    font-size: 3vw;
 }
 
 .subtitle1 {
     text-align: center;
     background-color: white;
-    font-size: 30px;
+    font-size: 2.5vw;
     color: black;
     padding: 20px;
 }
@@ -106,7 +106,7 @@ body {
     width: 50%;
     color: white;
     text-shadow: 2px 2px 4px black;
-    font-size: 30px;
+    font-size: 2.5vw;
     margin-bottom: 20px;
 }
 .img-text-wrapper .subtitle{
@@ -160,7 +160,7 @@ body {
 
 .pillar-title {
     color: white;
-    font-size: 80px;
+    font-size: 5vw;
     text-shadow: 2px 2px 4px black;
 }
 

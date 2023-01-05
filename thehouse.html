@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" href = "css/styles.css">
+</head>
+<body>
+    <div class="page-header">
+        About The House
+    </div>
+    <div class="pagebreaker">
+        <hr>
+    </div>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="thehouse.html">Home</a>
+                    </div>
+                    <div class="nav-link-wrapper">
+                        <a href="index.html">Meet The Scholars!</a>
+                        </div>
+                    <div class="nav-link-wrapper">
+                    <a href="about.html">About Us</a>
+                    </div>
+            </div>
+            <div class="right-side">
+                <div class="brand">
+                    <div>Evans Scholars UW 2023</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pagebreaker">
+        <hr>
+        <hr>
+    </div>
+    <div class="subtitle1" >
+        Introducing the 4 pillars
+    </div>
+    <div class="pillars-wrapper">
+        <div class="pillar-wrapper">
+            <div class="pillar-img-wrapper" ><img src="images/pillar1placeholder.jpg">
+            </div>
+            <div class="pillar-text-wrapper">
+                <div class="pillar-title">
+                    Scholarship
+                </div>
+                <div class="pillar-subtitle">
+                    Evans Scholars are expcted to achieve a GPA above a 3.0. The Program average is 3.2, and the abosolute minimum is a 2.5.
+                </div>
+            </div>
+        </div>
+        <div class="pillar-wrapper">
+            <div class="pillar-img-wrapper" ><img src="images/pillar2placeholder.jpg">
+            </div>
+            <div class="pillar-text-wrapper">
+                <div class="pillar-title">
+                    Leadership
+                </div>
+                <div class="pillar-subtitle">
+                    Evans Scholars are expected to become actively involved in house affairs, participate in campus activities and provide community service outside the chapter.
+                </div>
+            </div>
+        </div>
+        <div class="pillar-wrapper">
+            <div class="pillar-img-wrapper" ><img src="images/pillar3placeholder.jpg">
+            </div>
+            <div class="pillar-text-wrapper">
+                <div class="pillar-title">
+                    Group Living
+                </div>
+                <div class="pillar-subtitle">
+                    Evans Scholars must learn to liev and work with the other members of the chapter.
+                </div>
+            </div>
+        </div>
+        <div class="pillar-wrapper">
+            <a href = "chores.html">
+                <div class="pillar-img-wrapper" ><img src="images/pillar4placeholder.jpg">
+                </div>
+                <div class="pillar-text-wrapper">
+                    <div class="pillar-title">
+                        House Maintence
+                    </div>
+                    <div class="pillar-subtitle">
+                        Evans Scholars share responsiblity for the upkeep of the Scholarship House. All Scholars are expcted to perform certain duties essential to maintaining the cleanliness of the house. Click to learn more!
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div>
+        test change
+    </div>
+
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.pillar-wrapper')
+
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            portfolioItem.childNodes[1].classList.add('img-darken');
+        })
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove('img-darken');
+        })
+    })
+</script>
+<style>
+    body {
+    background-image: url('images/cherry2k.jpg');
+    }
+</style>
+</html>
+

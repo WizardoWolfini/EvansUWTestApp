@@ -1,0 +1,118 @@
+/* Master Styles */
+body {
+    margin:0px;
+}
+
+.page-header{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 50px;
+}
+
+/* Nav Styles */
+.container {
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.right-side{
+    text-transform: uppercase;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom .5s;
+}
+
+.nav-link-wrapper > a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+/* Portfolio Styles */
+
+.portfolio-items-wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover; /* crops the image to fit*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    height: 350px;
+    width: 100%;
+    left: -100px;
+    position:absolute;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    text-align: center;
+    padding-left:100px;
+    padding-right:100px;
+}
+
+.scholar-name {
+    width: 50%;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.img-text-wrapper .subtitle{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+.img-text-wrapper:hover > .subtitle {
+    font-weight: 600;
+    color: white;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+}
